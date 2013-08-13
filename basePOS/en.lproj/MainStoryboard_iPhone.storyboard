@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -160,28 +160,6 @@
         <image name="buttonCreditSale_iphone.png" width="280" height="45"/>
         <image name="merc_logo_iOS_flat.png" width="150" height="150"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="runCredit:"/>
-                <relationship kind="action" name="runCreditAdjust:"/>
-                <relationship kind="action" name="runCreditReturn:"/>
-                <relationship kind="action" name="runGift:"/>
-                <relationship kind="action" name="runGiftBal:"/>
-                <relationship kind="action" name="runGiftIssue:"/>
-                <relationship kind="outlet" name="buttonGiftIssue" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonRunCredit" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonRunCreditAdjust" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonRunCreditReturn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonRunGift" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonRunGiftBal" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
