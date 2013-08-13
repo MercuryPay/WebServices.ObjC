@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C244FDE117A17973001DDC2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C244FDE017A17973001DDC2F /* UIKit.framework */; };
+		C244FDE317A17973001DDC2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C244FDE217A17973001DDC2F /* Foundation.framework */; };
+		C244FDE517A17973001DDC2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C244FDE417A17973001DDC2F /* CoreGraphics.framework */; };
+		C244FDEB17A17973001DDC2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C244FDE917A17973001DDC2F /* InfoPlist.strings */; };
+		C244FDED17A17973001DDC2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C244FDEC17A17973001DDC2F /* main.m */; };
+		C244FDF117A17973001DDC2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C244FDF017A17973001DDC2F /* AppDelegate.m */; };
+		C244FDFA17A17973001DDC2F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C244FDF817A17973001DDC2F /* MainStoryboard_iPhone.storyboard */; };
+		C244FDFD17A17973001DDC2F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C244FDFB17A17973001DDC2F /* MainStoryboard_iPad.storyboard */; };
+		C244FE0017A17973001DDC2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C244FDFF17A17973001DDC2F /* ViewController.m */; };
+		C244FE0817A17973001DDC2F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C244FE0717A17973001DDC2F /* SenTestingKit.framework */; };
+		C244FE0917A17973001DDC2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C244FDE017A17973001DDC2F /* UIKit.framework */; };
+		C244FE0A17A17973001DDC2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C244FDE217A17973001DDC2F /* Foundation.framework */; };
+		C244FE2517A1810B001DDC2F /* MercuryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C244FE2417A1810B001DDC2F /* MercuryHelper.m */; };
+		C2AA0FD817A99AE60010429E /* merc_logo_iOS_flat.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AA0FD717A99AE60010429E /* merc_logo_iOS_flat.png */; };
+		C2AA0FDC17A9A5420010429E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AA0FDB17A9A5420010429E /* Default.png */; };
+		C2AA0FDE17A9A5610010429E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AA0FDD17A9A5610010429E /* Default@2x.png */; };
+		C2DBA23617AAC5EA00F0A8D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2DBA23517AAC5EA00F0A8D9 /* Default-568h@2x.png */; };
+		C2F4C67D17A833160079752C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4C67B17A833160079752C /* icon.png */; };
+		C2F4C67E17A833160079752C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4C67C17A833160079752C /* icon@2x.png */; };
+		C2F4C68217A83C550079752C /* iPad-Button-Spec.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4C68117A83C550079752C /* iPad-Button-Spec.png */; };
+		C2F4C68417A83E980079752C /* buttonCreditReturn.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4C68317A83E980079752C /* buttonCreditReturn.png */; };
+		C2F4C69917A854260079752C /* buttonCreditAdjust_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4C69617A854260079752C /* buttonCreditAdjust_iphone.png */; };
+		C2F4C69A17A854260079752C /* buttonCreditReturn_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4C69717A854260079752C /* buttonCreditReturn_iphone.png */; };
+		C2F4C69B17A854260079752C /* buttonCreditSale_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4C69817A854260079752C /* buttonCreditSale_iphone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C244FE0B17A17973001DDC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C244FDD517A17973001DDC2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C244FDDC17A17973001DDC2F;
+			remoteInfo = basePOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C244FDDD17A17973001DDC2F /* Mercury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mercury.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C244FDE017A17973001DDC2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C244FDE217A17973001DDC2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C244FDE417A17973001DDC2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C244FDE817A17973001DDC2F /* Mercury-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mercury-Info.plist"; sourceTree = "<group>"; };
+		C244FDEA17A17973001DDC2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C244FDEC17A17973001DDC2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C244FDEE17A17973001DDC2F /* Mercury-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mercury-Prefix.pch"; sourceTree = "<group>"; };
+		C244FDEF17A17973001DDC2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C244FDF017A17973001DDC2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C244FDF917A17973001DDC2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C244FDFC17A17973001DDC2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C244FDFE17A17973001DDC2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C244FDFF17A17973001DDC2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C244FE0617A17973001DDC2F /* MercuryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercuryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C244FE0717A17973001DDC2F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C244FE2317A1810B001DDC2F /* MercuryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MercuryHelper.h; sourceTree = "<group>"; };
+		C244FE2417A1810B001DDC2F /* MercuryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MercuryHelper.m; sourceTree = "<group>"; };
+		C2AA0FD717A99AE60010429E /* merc_logo_iOS_flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = merc_logo_iOS_flat.png; sourceTree = "<group>"; };
+		C2AA0FDB17A9A5420010429E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C2AA0FDD17A9A5610010429E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C2DBA23517AAC5EA00F0A8D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C2F4C67B17A833160079752C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		C2F4C67C17A833160079752C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		C2F4C68117A83C550079752C /* iPad-Button-Spec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad-Button-Spec.png"; sourceTree = "<group>"; };
+		C2F4C68317A83E980079752C /* buttonCreditReturn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonCreditReturn.png; sourceTree = "<group>"; };
+		C2F4C69617A854260079752C /* buttonCreditAdjust_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonCreditAdjust_iphone.png; sourceTree = "<group>"; };
+		C2F4C69717A854260079752C /* buttonCreditReturn_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonCreditReturn_iphone.png; sourceTree = "<group>"; };
+		C2F4C69817A854260079752C /* buttonCreditSale_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonCreditSale_iphone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C244FDDA17A17973001DDC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C244FDE117A17973001DDC2F /* UIKit.framework in Frameworks */,
+				C244FDE317A17973001DDC2F /* Foundation.framework in Frameworks */,
+				C244FDE517A17973001DDC2F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C244FE0217A17973001DDC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C244FE0817A17973001DDC2F /* SenTestingKit.framework in Frameworks */,
+				C244FE0917A17973001DDC2F /* UIKit.framework in Frameworks */,
+				C244FE0A17A17973001DDC2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C244FDD417A17973001DDC2F = {
+			isa = PBXGroup;
+			children = (
+				C244FDE617A17973001DDC2F /* basePOS */,
+				C244FDDF17A17973001DDC2F /* Frameworks */,
+				C244FDDE17A17973001DDC2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C244FDDE17A17973001DDC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C244FDDD17A17973001DDC2F /* Mercury.app */,
+				C244FE0617A17973001DDC2F /* MercuryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C244FDDF17A17973001DDC2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C244FDE017A17973001DDC2F /* UIKit.framework */,
+				C244FDE217A17973001DDC2F /* Foundation.framework */,
+				C244FDE417A17973001DDC2F /* CoreGraphics.framework */,
+				C244FE0717A17973001DDC2F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C244FDE617A17973001DDC2F /* basePOS */ = {
+			isa = PBXGroup;
+			children = (
+				C244FDEF17A17973001DDC2F /* AppDelegate.h */,
+				C244FDF017A17973001DDC2F /* AppDelegate.m */,
+				C244FDF817A17973001DDC2F /* MainStoryboard_iPhone.storyboard */,
+				C244FDFB17A17973001DDC2F /* MainStoryboard_iPad.storyboard */,
+				C244FE2317A1810B001DDC2F /* MercuryHelper.h */,
+				C244FE2417A1810B001DDC2F /* MercuryHelper.m */,
+				C244FDFE17A17973001DDC2F /* ViewController.h */,
+				C244FDFF17A17973001DDC2F /* ViewController.m */,
+				C244FDE717A17973001DDC2F /* Supporting Files */,
+			);
+			path = basePOS;
+			sourceTree = "<group>";
+		};
+		C244FDE717A17973001DDC2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2DBA23517AAC5EA00F0A8D9 /* Default-568h@2x.png */,
+				C2AA0FD717A99AE60010429E /* merc_logo_iOS_flat.png */,
+				C2F4C69617A854260079752C /* buttonCreditAdjust_iphone.png */,
+				C2F4C69717A854260079752C /* buttonCreditReturn_iphone.png */,
+				C2F4C69817A854260079752C /* buttonCreditSale_iphone.png */,
+				C2F4C68317A83E980079752C /* buttonCreditReturn.png */,
+				C2F4C68117A83C550079752C /* iPad-Button-Spec.png */,
+				C2F4C67B17A833160079752C /* icon.png */,
+				C2F4C67C17A833160079752C /* icon@2x.png */,
+				C2AA0FDD17A9A5610010429E /* Default@2x.png */,
+				C2AA0FDB17A9A5420010429E /* Default.png */,
+				C244FDE817A17973001DDC2F /* Mercury-Info.plist */,
+				C244FDE917A17973001DDC2F /* InfoPlist.strings */,
+				C244FDEC17A17973001DDC2F /* main.m */,
+				C244FDEE17A17973001DDC2F /* Mercury-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C244FDDC17A17973001DDC2F /* Mercury */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C244FE1817A17973001DDC2F /* Build configuration list for PBXNativeTarget "Mercury" */;
+			buildPhases = (
+				C244FDD917A17973001DDC2F /* Sources */,
+				C244FDDA17A17973001DDC2F /* Frameworks */,
+				C244FDDB17A17973001DDC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mercury;
+			productName = basePOS;
+			productReference = C244FDDD17A17973001DDC2F /* Mercury.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C244FE0517A17973001DDC2F /* MercuryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C244FE1B17A17973001DDC2F /* Build configuration list for PBXNativeTarget "MercuryTests" */;
+			buildPhases = (
+				C244FE0117A17973001DDC2F /* Sources */,
+				C244FE0217A17973001DDC2F /* Frameworks */,
+				C244FE0317A17973001DDC2F /* Resources */,
+				C244FE0417A17973001DDC2F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C244FE0C17A17973001DDC2F /* PBXTargetDependency */,
+			);
+			name = MercuryTests;
+			productName = basePOSTests;
+			productReference = C244FE0617A17973001DDC2F /* MercuryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C244FDD517A17973001DDC2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Mercury;
+			};
+			buildConfigurationList = C244FDD817A17973001DDC2F /* Build configuration list for PBXProject "Mercury" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C244FDD417A17973001DDC2F;
+			productRefGroup = C244FDDE17A17973001DDC2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C244FDDC17A17973001DDC2F /* Mercury */,
+				C244FE0517A17973001DDC2F /* MercuryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C244FDDB17A17973001DDC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C244FDEB17A17973001DDC2F /* InfoPlist.strings in Resources */,
+				C244FDFA17A17973001DDC2F /* MainStoryboard_iPhone.storyboard in Resources */,
+				C244FDFD17A17973001DDC2F /* MainStoryboard_iPad.storyboard in Resources */,
+				C2F4C67D17A833160079752C /* icon.png in Resources */,
+				C2F4C67E17A833160079752C /* icon@2x.png in Resources */,
+				C2F4C68217A83C550079752C /* iPad-Button-Spec.png in Resources */,
+				C2F4C68417A83E980079752C /* buttonCreditReturn.png in Resources */,
+				C2F4C69917A854260079752C /* buttonCreditAdjust_iphone.png in Resources */,
+				C2F4C69A17A854260079752C /* buttonCreditReturn_iphone.png in Resources */,
+				C2F4C69B17A854260079752C /* buttonCreditSale_iphone.png in Resources */,
+				C2AA0FD817A99AE60010429E /* merc_logo_iOS_flat.png in Resources */,
+				C2AA0FDC17A9A5420010429E /* Default.png in Resources */,
+				C2AA0FDE17A9A5610010429E /* Default@2x.png in Resources */,
+				C2DBA23617AAC5EA00F0A8D9 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C244FE0317A17973001DDC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C244FE0417A17973001DDC2F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C244FDD917A17973001DDC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C244FDED17A17973001DDC2F /* main.m in Sources */,
+				C244FDF117A17973001DDC2F /* AppDelegate.m in Sources */,
+				C244FE0017A17973001DDC2F /* ViewController.m in Sources */,
+				C244FE2517A1810B001DDC2F /* MercuryHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C244FE0117A17973001DDC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C244FE0C17A17973001DDC2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C244FDDC17A17973001DDC2F /* Mercury */;
+			targetProxy = C244FE0B17A17973001DDC2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C244FDE917A17973001DDC2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C244FDEA17A17973001DDC2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C244FDF817A17973001DDC2F /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C244FDF917A17973001DDC2F /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C244FDFB17A17973001DDC2F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C244FDFC17A17973001DDC2F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C244FE1617A17973001DDC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C244FE1717A17973001DDC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C244FE1917A17973001DDC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "basePOS/Mercury-Prefix.pch";
+				INFOPLIST_FILE = "basePOS/Mercury-Info.plist";
+				PRODUCT_NAME = Mercury;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C244FE1A17A17973001DDC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "basePOS/Mercury-Prefix.pch";
+				INFOPLIST_FILE = "basePOS/Mercury-Info.plist";
+				PRODUCT_NAME = Mercury;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C244FE1C17A17973001DDC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/basePOS.app/basePOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "basePOS/basePOS-Prefix.pch";
+				INFOPLIST_FILE = "basePOSTests/basePOSTests-Info.plist";
+				PRODUCT_NAME = MercuryTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C244FE1D17A17973001DDC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/basePOS.app/basePOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "basePOS/basePOS-Prefix.pch";
+				INFOPLIST_FILE = "basePOSTests/basePOSTests-Info.plist";
+				PRODUCT_NAME = MercuryTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C244FDD817A17973001DDC2F /* Build configuration list for PBXProject "Mercury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C244FE1617A17973001DDC2F /* Debug */,
+				C244FE1717A17973001DDC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C244FE1817A17973001DDC2F /* Build configuration list for PBXNativeTarget "Mercury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C244FE1917A17973001DDC2F /* Debug */,
+				C244FE1A17A17973001DDC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C244FE1B17A17973001DDC2F /* Build configuration list for PBXNativeTarget "MercuryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C244FE1C17A17973001DDC2F /* Debug */,
+				C244FE1D17A17973001DDC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C244FDD517A17973001DDC2F /* Project object */;
+}

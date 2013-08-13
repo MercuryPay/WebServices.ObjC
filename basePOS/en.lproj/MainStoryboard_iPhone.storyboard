@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJj-f5-c29">
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" type="user" id="4JT-nz-xzT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="Credit Sale" backgroundImage="buttonCreditSale_iphone.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="runCredit:" destination="2" eventType="touchUpInside" id="i3W-c2-Vlw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rf0-yM-fWd">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" type="user" id="EkS-Tf-nw5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="Credit Return" backgroundImage="buttonCreditReturn_iphone.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="runCreditReturn:" destination="2" eventType="touchUpInside" id="TmT-lh-Nu8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UU2-6n-GPi">
+                                <color key="backgroundColor" red="0.37254901960784315" green="0.37647058823529411" blue="0.38431372549019605" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" type="user" id="aJK-9Q-LER"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Gift Sale">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="runGift:" destination="2" eventType="touchUpInside" id="IpI-wB-joG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0o-xa-54B">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" type="user" id="2SG-LD-A7j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                <state key="normal" title="Credit Adjust" backgroundImage="buttonCreditAdjust_iphone.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="runCreditAdjust:" destination="2" eventType="touchUpInside" id="Zu7-TO-tm8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nib-xo-5Cr">
+                                <color key="backgroundColor" red="0.42472257492326188" green="0.42856443458918553" blue="0.44009001358695654" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" type="user" id="xGv-Ou-Ppg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Gift Balance">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="runGiftBal:" destination="2" eventType="touchUpInside" id="WP8-XU-e1T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZx-G8-5Gi">
+                                <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" type="user" id="0dl-gR-cvn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <state key="normal" title="Gift Issue">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="runGiftIssue:" destination="2" eventType="touchUpInside" id="cu8-PB-5rL"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="merc_logo_iOS_flat.png" translatesAutoresizingMaskIntoConstraints="NO" id="U3s-9E-MwZ"/>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="Nib-xo-5Cr" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0Qb-no-KNa"/>
+                            <constraint firstItem="qJj-f5-c29" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="3PU-Pf-B32"/>
+                            <constraint firstItem="qJj-f5-c29" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="3cd-dH-UEY"/>
+                            <constraint firstItem="RZx-G8-5Gi" firstAttribute="top" secondItem="3" secondAttribute="top" constant="148" id="8Em-Vd-fwV"/>
+                            <constraint firstItem="rf0-yM-fWd" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="AGp-tF-B6O"/>
+                            <constraint firstItem="RZx-G8-5Gi" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="KC4-Ps-sLe"/>
+                            <constraint firstAttribute="trailing" secondItem="RZx-G8-5Gi" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="LKZ-aE-0gf"/>
+                            <constraint firstItem="S0o-xa-54B" firstAttribute="centerX" secondItem="qJj-f5-c29" secondAttribute="centerX" type="user" id="M2d-Hn-slE"/>
+                            <constraint firstItem="UU2-6n-GPi" firstAttribute="top" secondItem="3" secondAttribute="top" constant="240" id="NBH-tw-dfc"/>
+                            <constraint firstItem="Nib-xo-5Cr" firstAttribute="top" secondItem="3" secondAttribute="top" constant="194" id="Nms-gO-Cb1"/>
+                            <constraint firstAttribute="trailing" secondItem="Nib-xo-5Cr" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Nng-FJ-zSM"/>
+                            <constraint firstItem="UU2-6n-GPi" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Nuv-Ge-kPG"/>
+                            <constraint firstItem="U3s-9E-MwZ" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="P19-j7-NLa"/>
+                            <constraint firstItem="U3s-9E-MwZ" firstAttribute="centerX" secondItem="UU2-6n-GPi" secondAttribute="centerX" type="default" id="PcE-3Y-coQ"/>
+                            <constraint firstAttribute="trailing" secondItem="qJj-f5-c29" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="S3F-3G-6wY"/>
+                            <constraint firstAttribute="trailing" secondItem="UU2-6n-GPi" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="SSY-rm-dSP"/>
+                            <constraint firstItem="S0o-xa-54B" firstAttribute="centerX" secondItem="rf0-yM-fWd" secondAttribute="centerX" type="user" id="TNB-C8-2Az"/>
+                            <constraint firstItem="S0o-xa-54B" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="co9-a2-EW2"/>
+                            <constraint firstItem="S0o-xa-54B" firstAttribute="centerX" secondItem="rf0-yM-fWd" secondAttribute="centerX" type="user" id="h6n-ye-tuA"/>
+                            <constraint firstItem="S0o-xa-54B" firstAttribute="top" secondItem="3" secondAttribute="top" constant="92" id="mbf-HE-dhl"/>
+                            <constraint firstItem="rf0-yM-fWd" firstAttribute="top" secondItem="3" secondAttribute="top" constant="46" id="rq4-zt-r9u"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonGiftIssue" destination="RZx-G8-5Gi" id="hrX-UP-VuO"/>
+                        <outlet property="buttonRunCredit" destination="qJj-f5-c29" id="ws5-4I-RmH"/>
+                        <outlet property="buttonRunCreditAdjust" destination="S0o-xa-54B" id="jY6-a0-JEc"/>
+                        <outlet property="buttonRunCreditReturn" destination="rf0-yM-fWd" id="KIY-CL-lCS"/>
+                        <outlet property="buttonRunGift" destination="UU2-6n-GPi" id="zEu-vY-GeL"/>
+                        <outlet property="buttonRunGiftBal" destination="Nib-xo-5Cr" id="nKE-PA-qJt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="buttonCreditAdjust_iphone.png" width="280" height="45"/>
+        <image name="buttonCreditReturn_iphone.png" width="280" height="45"/>
+        <image name="buttonCreditSale_iphone.png" width="280" height="45"/>
+        <image name="merc_logo_iOS_flat.png" width="150" height="150"/>
+    </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="runCredit:"/>
+                <relationship kind="action" name="runCreditAdjust:"/>
+                <relationship kind="action" name="runCreditReturn:"/>
+                <relationship kind="action" name="runGift:"/>
+                <relationship kind="action" name="runGiftBal:"/>
+                <relationship kind="action" name="runGiftIssue:"/>
+                <relationship kind="outlet" name="buttonGiftIssue" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonRunCredit" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonRunCreditAdjust" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonRunCreditReturn" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonRunGift" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonRunGiftBal" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
