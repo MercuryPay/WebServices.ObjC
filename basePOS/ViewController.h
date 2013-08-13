@@ -1,6 +1,6 @@
 //
 //  ViewController.h
-//  PorkyPOS
+//  
 //
 //  Created by agharris73 on 5/28/13.
 //  Copyright (c) 2013 Andrew Harris. All rights reserved.
