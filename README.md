@@ -9,7 +9,7 @@ XCode iOS application processing transactions to our web services platform.
   
 Create a NSMutableDictionary and add all the Key Value Pairs.
   
-```
+```Objective-C
     NSMutableDictionary *dictionaryReq = [NSMutableDictionary new];
     [dictionaryReq setObject:@"118725340908147" forKey:@"MerchantID"];
     [dictionaryReq setObject:@"Credit" forKey:@"TranType"];
@@ -38,7 +38,7 @@ Create a NSMutableDictionary and add all the Key Value Pairs.
 
 Create MercuryHelper object and call the transctionFromDictionary method with the NSMutalbeDictionary and merchant's password.
 
-```
+```Objective-C
     MercuryHelper *mgh = [MercuryHelper new];
     mgh.delegate = self;
     [mgh transctionFromDictionary:dictionaryReq andPassword:@"xyz"];
@@ -50,7 +50,7 @@ Parse the Response using in the transactionDidFinish delegate.
 
 Approved transactions will have a CmdStatus equal to "Approved".
 
-```
+```Objective-C
 -(void) transactionDidFinish:(NSDictionary *)result {
     
     if ([result objectForKey:@"CmdStatus"]
