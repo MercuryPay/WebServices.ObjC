@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>486BCAC8-ED77-4964-AA85-1CAFAA7C0119</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Mercury</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5CC1A1EB-61F6-42BF-952B-8F9FCF25AE62</key>
+		<string>https://github.com/MercuryPay/WebServices.ObjC.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Mercury.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5CC1A1EB-61F6-42BF-952B-8F9FCF25AE62</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MercuryPay/WebServices.ObjC.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5CC1A1EB-61F6-42BF-952B-8F9FCF25AE62</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5CC1A1EB-61F6-42BF-952B-8F9FCF25AE62</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WebServices</string>
+		</dict>
+	</array>
+</dict>
+</plist>

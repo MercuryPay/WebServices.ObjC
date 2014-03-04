@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="11G63" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="4">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vI3-q8-Kt4"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Fp-Pr-daf"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5">
-                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hNf-ux-KEj">
+                                <rect key="frame" x="244" y="153" width="280" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="gat-sX-xMA"/>
+                                    <constraint firstAttribute="height" constant="45" id="n2Q-JK-hml"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Credit Sale" backgroundImage="iPad-Button-Spec.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -29,6 +39,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sG-mb-2aL">
+                                <rect key="frame" x="244" y="208" width="280" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="12V-Zj-oVT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Credit Return" backgroundImage="iPad-Button-Spec.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,6 +59,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJo-nZ-Irj">
+                                <rect key="frame" x="244" y="263" width="280" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Sh7-44-Qma"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Credit Adjust" backgroundImage="iPad-Button-Spec.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -61,6 +79,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Re8-1Q-R9P">
+                                <rect key="frame" x="244" y="348" width="280" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Skd-jI-Xv1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="PrePaid Gift" backgroundImage="iPad-Button-Spec.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -77,6 +99,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9y5-hq-1ZG">
+                                <rect key="frame" x="244" y="401" width="280" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Emv-y7-AIj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="PrePaid Gift Balance" backgroundImage="iPad-Button-Spec.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -93,6 +119,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRX-sF-SHl">
+                                <rect key="frame" x="244" y="455" width="280" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="97a-Ro-zh1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="PrePaid Gift Issue" backgroundImage="iPad-Button-Spec.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -108,24 +138,30 @@
                                     <action selector="runGiftIssue:" destination="2" eventType="touchUpInside" id="TOp-dm-xbK"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="logo_sticker_small.png" translatesAutoresizingMaskIntoConstraints="NO" id="B1X-zj-9e7"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="merc_logo_iOS_flat.png" translatesAutoresizingMaskIntoConstraints="NO" id="JUS-mJ-r8s">
+                                <rect key="frame" x="309" y="678" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="B1X-zj-9e7" secondAttribute="bottom" constant="177" id="0Jt-EL-HK1"/>
-                            <constraint firstItem="9y5-hq-1ZG" firstAttribute="top" secondItem="5" secondAttribute="top" constant="401" id="0ly-98-0FW"/>
-                            <constraint firstItem="tRX-sF-SHl" firstAttribute="leading" secondItem="9y5-hq-1ZG" secondAttribute="leading" type="default" id="89M-Ga-0jH"/>
+                            <constraint firstItem="7sG-mb-2aL" firstAttribute="trailing" secondItem="zJo-nZ-Irj" secondAttribute="trailing" id="7Z0-WZ-PHC"/>
+                            <constraint firstItem="tRX-sF-SHl" firstAttribute="leading" secondItem="9y5-hq-1ZG" secondAttribute="leading" id="89M-Ga-0jH"/>
+                            <constraint firstItem="Re8-1Q-R9P" firstAttribute="trailing" secondItem="zJo-nZ-Irj" secondAttribute="trailing" id="9hg-CL-HR6"/>
+                            <constraint firstItem="9y5-hq-1ZG" firstAttribute="top" secondItem="Re8-1Q-R9P" secondAttribute="bottom" constant="8" symbolic="YES" id="Ar7-PG-QJC"/>
                             <constraint firstItem="zJo-nZ-Irj" firstAttribute="top" secondItem="5" secondAttribute="top" constant="263" id="B0j-Xg-ifZ"/>
                             <constraint firstItem="7sG-mb-2aL" firstAttribute="top" secondItem="5" secondAttribute="top" constant="208" id="CJ3-p3-efz"/>
-                            <constraint firstItem="Re8-1Q-R9P" firstAttribute="leading" secondItem="zJo-nZ-Irj" secondAttribute="leading" type="default" id="EDi-G0-ZAv"/>
-                            <constraint firstItem="9y5-hq-1ZG" firstAttribute="leading" secondItem="Re8-1Q-R9P" secondAttribute="leading" type="default" id="Hwl-Ys-Yci"/>
+                            <constraint firstItem="Re8-1Q-R9P" firstAttribute="leading" secondItem="zJo-nZ-Irj" secondAttribute="leading" id="EDi-G0-ZAv"/>
+                            <constraint firstItem="9y5-hq-1ZG" firstAttribute="leading" secondItem="Re8-1Q-R9P" secondAttribute="leading" id="Hwl-Ys-Yci"/>
                             <constraint firstItem="Re8-1Q-R9P" firstAttribute="top" secondItem="5" secondAttribute="top" constant="348" id="KzU-wL-310"/>
                             <constraint firstItem="hNf-ux-KEj" firstAttribute="top" secondItem="5" secondAttribute="top" constant="153" id="Ljs-UD-0k2"/>
-                            <constraint firstItem="7sG-mb-2aL" firstAttribute="leading" secondItem="hNf-ux-KEj" secondAttribute="leading" type="default" id="QY4-fF-YIb"/>
-                            <constraint firstItem="tRX-sF-SHl" firstAttribute="centerX" secondItem="5" secondAttribute="centerX" type="default" id="UX2-HE-Yfm"/>
+                            <constraint firstItem="7sG-mb-2aL" firstAttribute="trailing" secondItem="hNf-ux-KEj" secondAttribute="trailing" id="NLL-b5-lMh"/>
+                            <constraint firstItem="9y5-hq-1ZG" firstAttribute="trailing" secondItem="Re8-1Q-R9P" secondAttribute="trailing" id="Q2w-5O-kIg"/>
+                            <constraint firstItem="7sG-mb-2aL" firstAttribute="leading" secondItem="hNf-ux-KEj" secondAttribute="leading" id="QY4-fF-YIb"/>
+                            <constraint firstItem="tRX-sF-SHl" firstAttribute="centerX" secondItem="5" secondAttribute="centerX" id="UX2-HE-Yfm"/>
                             <constraint firstItem="tRX-sF-SHl" firstAttribute="top" secondItem="5" secondAttribute="top" constant="455" id="XHG-Rl-gge"/>
-                            <constraint firstItem="zJo-nZ-Irj" firstAttribute="leading" secondItem="7sG-mb-2aL" secondAttribute="leading" type="default" id="diW-9N-VVE"/>
-                            <constraint firstItem="B1X-zj-9e7" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="324" id="sBX-5D-z7Z"/>
+                            <constraint firstItem="zJo-nZ-Irj" firstAttribute="leading" secondItem="7sG-mb-2aL" secondAttribute="leading" id="diW-9N-VVE"/>
+                            <constraint firstItem="tRX-sF-SHl" firstAttribute="trailing" secondItem="9y5-hq-1ZG" secondAttribute="trailing" id="tD5-k4-UQc"/>
                         </constraints>
                     </view>
                     <connections>
@@ -143,10 +179,10 @@
     </scenes>
     <resources>
         <image name="iPad-Button-Spec.png" width="640" height="50"/>
-        <image name="logo_sticker_small.png" width="125" height="125"/>
+        <image name="merc_logo_iOS_flat.png" width="150" height="150"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
