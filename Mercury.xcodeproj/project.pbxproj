@@ -16,9 +16,6 @@
 		C244FDFA17A17973001DDC2F /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C244FDF817A17973001DDC2F /* MainStoryboard_iPhone.storyboard */; };
 		C244FDFD17A17973001DDC2F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C244FDFB17A17973001DDC2F /* MainStoryboard_iPad.storyboard */; };
 		C244FE0017A17973001DDC2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C244FDFF17A17973001DDC2F /* ViewController.m */; };
-		C244FE0817A17973001DDC2F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C244FE0717A17973001DDC2F /* SenTestingKit.framework */; };
-		C244FE0917A17973001DDC2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C244FDE017A17973001DDC2F /* UIKit.framework */; };
-		C244FE0A17A17973001DDC2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C244FDE217A17973001DDC2F /* Foundation.framework */; };
 		C244FE2517A1810B001DDC2F /* MercuryHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C244FE2417A1810B001DDC2F /* MercuryHelper.m */; };
 		C2AA0FD817A99AE60010429E /* merc_logo_iOS_flat.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AA0FD717A99AE60010429E /* merc_logo_iOS_flat.png */; };
 		C2AA0FDC17A9A5420010429E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C2AA0FDB17A9A5420010429E /* Default.png */; };
@@ -32,16 +29,6 @@
 		C2F4C69A17A854260079752C /* buttonCreditReturn_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4C69717A854260079752C /* buttonCreditReturn_iphone.png */; };
 		C2F4C69B17A854260079752C /* buttonCreditSale_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C2F4C69817A854260079752C /* buttonCreditSale_iphone.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C244FE0B17A17973001DDC2F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C244FDD517A17973001DDC2F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C244FDDC17A17973001DDC2F;
-			remoteInfo = basePOS;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C244FDDD17A17973001DDC2F /* Mercury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mercury.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +45,6 @@
 		C244FDFC17A17973001DDC2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C244FDFE17A17973001DDC2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C244FDFF17A17973001DDC2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C244FE0617A17973001DDC2F /* MercuryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercuryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C244FE0717A17973001DDC2F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C244FE2317A1810B001DDC2F /* MercuryHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MercuryHelper.h; sourceTree = "<group>"; };
 		C244FE2417A1810B001DDC2F /* MercuryHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MercuryHelper.m; sourceTree = "<group>"; };
@@ -86,16 +72,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C244FE0217A17973001DDC2F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C244FE0817A17973001DDC2F /* SenTestingKit.framework in Frameworks */,
-				C244FE0917A17973001DDC2F /* UIKit.framework in Frameworks */,
-				C244FE0A17A17973001DDC2F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -112,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				C244FDDD17A17973001DDC2F /* Mercury.app */,
-				C244FE0617A17973001DDC2F /* MercuryTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,25 +161,6 @@
 			productReference = C244FDDD17A17973001DDC2F /* Mercury.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C244FE0517A17973001DDC2F /* MercuryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C244FE1B17A17973001DDC2F /* Build configuration list for PBXNativeTarget "MercuryTests" */;
-			buildPhases = (
-				C244FE0117A17973001DDC2F /* Sources */,
-				C244FE0217A17973001DDC2F /* Frameworks */,
-				C244FE0317A17973001DDC2F /* Resources */,
-				C244FE0417A17973001DDC2F /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C244FE0C17A17973001DDC2F /* PBXTargetDependency */,
-			);
-			name = MercuryTests;
-			productName = basePOSTests;
-			productReference = C244FE0617A17973001DDC2F /* MercuryTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,7 +183,6 @@
 			projectRoot = "";
 			targets = (
 				C244FDDC17A17973001DDC2F /* Mercury */,
-				C244FE0517A17973001DDC2F /* MercuryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,30 +209,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C244FE0317A17973001DDC2F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C244FE0417A17973001DDC2F /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C244FDD917A17973001DDC2F /* Sources */ = {
@@ -291,22 +223,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C244FE0117A17973001DDC2F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C244FE0C17A17973001DDC2F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C244FDDC17A17973001DDC2F /* Mercury */;
-			targetProxy = C244FE0B17A17973001DDC2F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C244FDE917A17973001DDC2F /* InfoPlist.strings */ = {
@@ -416,40 +333,6 @@
 			};
 			name = Release;
 		};
-		C244FE1C17A17973001DDC2F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/basePOS.app/basePOS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "basePOS/basePOS-Prefix.pch";
-				INFOPLIST_FILE = "basePOSTests/basePOSTests-Info.plist";
-				PRODUCT_NAME = MercuryTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		C244FE1D17A17973001DDC2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/basePOS.app/basePOS";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "basePOS/basePOS-Prefix.pch";
-				INFOPLIST_FILE = "basePOSTests/basePOSTests-Info.plist";
-				PRODUCT_NAME = MercuryTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -467,15 +350,6 @@
 			buildConfigurations = (
 				C244FE1917A17973001DDC2F /* Debug */,
 				C244FE1A17A17973001DDC2F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C244FE1B17A17973001DDC2F /* Build configuration list for PBXNativeTarget "MercuryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C244FE1C17A17973001DDC2F /* Debug */,
-				C244FE1D17A17973001DDC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
