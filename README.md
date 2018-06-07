@@ -1,11 +1,16 @@
 WebServices.ObjC
 ====================
 
+<a href="https://developer.vantiv.com/?utm_campaign=githubcta&utm_medium=hyperlink&utm_source=github&utm_content=gotquestions">Got questions? Connect with our experts on Vantiv ONE.</a>
+
+<a href="https://developer.vantiv.com/?utm_campaign=githubcta&utm_medium=hyperlink&utm_source=github&utm_content=codingforcommerce">Are you coding for commerce? Connect with our experts on Vantiv ONE.</a>
+
+
 XCode iOS application processing transactions to our web services platform.
 
 3 step process to integrate to Mercury Web Services.
 
-##Step 1: Build Request with Key Value Pairs
+## Step 1: Build Request with Key Value Pairs
   
 Create a NSMutableDictionary and add all the Key Value Pairs.
   
@@ -35,7 +40,7 @@ Create a NSMutableDictionary and add all the Key Value Pairs.
     [dictionaryReq setObject:@"123" forKey:@"CVV"];
 ```
   
-##Step 2: Process the Transaction
+## Step 2: Process the Transaction
 
 Create MercuryHelper object and call the transctionFromDictionary method with the NSMutalbeDictionary and merchant's password.
 
@@ -45,7 +50,7 @@ Create MercuryHelper object and call the transctionFromDictionary method with th
     [mgh transctionFromDictionary:dictionaryReq andPassword:@"xyz"];
 ```
 
-##Step 3: Parse the Response
+## Step 3: Parse the Response
 
 Parse the Response using in the transactionDidFinish delegate.
 
@@ -68,7 +73,7 @@ Approved transactions will have a CmdStatus equal to "Approved".
 }
 ```
 
-###©2014 Mercury Payment Systems, LLC - all rights reserved.
+### ©2014 Mercury Payment Systems, LLC - all rights reserved.
 
 Disclaimer:
 This software and all specifications and documentation contained herein or provided to you hereunder (the "Software") are provided free of charge strictly on an "AS IS" basis. No representations or warranties are expressed or implied, including, but not limited to, warranties of suitability, quality, merchantability, or fitness for a particular purpose (irrespective of any course of dealing, custom or usage of trade), and all such warranties are expressly and specifically disclaimed. Mercury Payment Systems shall have no liability or responsibility to you nor any other person or entity with respect to any liability, loss, or damage, including lost profits whether foreseeable or not, or other obligation for any cause whatsoever, caused or alleged to be caused directly or indirectly by the Software. Use of the Software signifies agreement with this disclaimer notice.
